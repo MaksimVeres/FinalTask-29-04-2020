@@ -1,0 +1,133 @@
+<%@ include file="../directive/taglib.jspf" %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title mb-4">
+                        <div class="d-flex justify-content-start">
+                            <div class="userData ml-3">
+                                <h2 class="d-block"
+                                    style="font-size: 1.5rem; font-weight: bold">${sessionScope.user.login}</h2>
+                                <c:if test="${sessionScope.user.roleId == 0}">
+                                    <h6 class="d-block text-info">
+                                        <fmt:message key="administration_jspf.administrator"/>
+                                    </h6>
+                                </c:if>
+                                <h6 class="d-block">
+                                    <fmt:message key="userCabinetMain_jspf.status"/>:
+                                    <c:choose>
+                                        <c:when test="${sessionScope.user.statusId == 0}">
+                                            <span class="text-success">
+                                                <fmt:message key="userCabinetMain_jspf.status.active"/>
+                                            </span>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <c:if test="${sessionScope.user.statusId == 1}">
+                                                <span class="text-muted">
+                                                    <fmt:message key="userCabinetMain_jspf.status.stopped"/>
+                                                </span>
+                                            </c:if>
+                                            <c:if test="${sessionScope.user.statusId == 2}">
+                                                <span class="text-danger">
+                                                    <fmt:message key="userCabinetMain_jspf.status.blocked"/>
+                                                </span>
+                                            </c:if>
+                                        </c:otherwise>
+                                    </c:choose>
+                                </h6>
+                            </div>
+                            <div class="ml-auto">
+                                <a class="btn btn-outline-secondary" href="process?command=logout">
+                                    <fmt:message key="userCabinetMain_jspf.log_out"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="basicInfo-tab" data-toggle="tab"
+                                       href="process?command=toPersonalCabinet&forwardMethod=forward"
+                                       role="tab" aria-controls="basicInfo" aria-selected="false">
+                                        <fmt:message key="userCabinetMain_jspf.basic_info"/>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="connectedServices-tab" data-toggle="tab"
+                                       href="process?command=updateUserServices" role="tab"
+                                       aria-controls="connectedServices"
+                                       aria-selected="true">
+                                        <fmt:message key="userCabinetMain_jspf.connected_services"/>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content ml-1" id="myTabContent">
+                                <div class="tab-pane fade show active" id="basicInfo" role="tabpanel"
+                                     aria-labelledby="connectedServices-tab">
+
+                                    <c:choose>
+                                        <c:when test="${not empty sessionScope.userServiceMap}">
+                                            <c:set var="globalMap" value="${sessionScope.userServiceMap}"/>
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">
+                                                        <fmt:message key="userCabinetMain_jspf.connected_services"/>
+                                                    </label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    <span class="text-info">${sessionScope.userServiceMap.size()}</span>
+                                                </div>
+                                            </div>
+                                            <hr/>
+
+                                            <c:forEach var="entry" items="${globalMap}">
+                                                <c:forEach var="miniMap" items="${entry.value}">
+                                                    <div class="row">
+                                                        <div class="col-sm-3 col-md-2 col-5">
+                                                            <label style="font-weight:bold;">${miniMap.value.name}</label>
+                                                        </div>
+                                                        <div class="col-md-8 col-6">
+                                                            <fmt:message
+                                                                    key="userCabinetServices_jspf.tariff"/>: ${miniMap.key.name},
+                                                            <fmt:message
+                                                                    key="userCabinetServices_jspf.address"/>: ${entry.key.address},
+                                                            <fmt:message
+                                                                    key="userCabinetServices_jspf.last_payment_date"/>: ${entry.key.lastPaymentDate}.
+                                                        </div>
+                                                        <div class="col-sm-3 col-md-2 col-5">
+                                                            <a class="btn btn-outline-info"
+                                                               href="process?command=toDescribeForm&forwardMethod=forward&tariffId=${miniMap.key.id}&userServiceId=${entry.key.id}">
+                                                                <fmt:message key="userCabinetServices_jspf.describe"/>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <hr/>
+                                                </c:forEach>
+                                            </c:forEach>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <span class="text-center"> <fmt:message
+                                                    key="userCabinetServices_jspf.no.services"/> </span>
+                                            <br/>
+                                            <span class="text-center">
+                                            <a class="btn btn-outline-primary"
+                                               href="process?command=toMainPage&forwardMethod=forward">
+                                                <fmt:message key="userCabinetServices_jspf.to.services"/>
+                                            </a>
+                                            </span>
+                                        </c:otherwise>
+                                    </c:choose>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

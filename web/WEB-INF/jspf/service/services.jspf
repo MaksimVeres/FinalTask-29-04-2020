@@ -1,0 +1,33 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">
+        <fmt:message key="services_jspf.services"/>
+    </h1>
+    <p class="lead">
+        <fmt:message key="service_jspf.available.services"/>
+    </p>
+</div>
+
+<div class="container">
+
+    <div class="card-deck mb-3 text-center">
+
+        <c:set var="i" value="0"/>
+
+        <c:forEach var="item" items="${applicationScope.services}">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">${item.name}</h4>
+                </div>
+                <div class="card-body">
+                    <a class="btn btn-lg btn-block btn-outline-primary"
+                       href="process?command=openTariffList&serviceId=${item.id}">
+                        <fmt:message key="service_jspf.more"/>
+                    </a>
+                </div>
+            </div>
+        </c:forEach>
+
+    </div>
+
+</div>

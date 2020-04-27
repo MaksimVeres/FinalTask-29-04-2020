@@ -1,0 +1,6 @@
+<%@ include file="taglib.jspf"%>
+<%@ include file="authenticationCheck.jspf"%>
+
+<c:if test="${sessionScope.user.roleId != 0}">
+    <c:redirect url="/process?command=toMainPage&forwardMethod=redirect"/>
+</c:if>

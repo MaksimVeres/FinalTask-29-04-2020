@@ -1,0 +1,34 @@
+<%@ include file="directive/taglib.jspf" %>
+<%@ include file="directive/locale.jspf"%>
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="css/index.css"/>
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        <a class="label" href="forward?page=mainPage">Internet service provider</a></h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        <c:if test="${not empty sessionScope.user && sessionScope.user.roleId == 0}">
+            <a class="p-2 text-dark" href="forward?page=administrationPanel">
+                <fmt:message key="administrationPanel_jsp.administration"/>
+            </a>
+        </c:if>
+        <a class="p-2 text-dark" href="process?command=languageSwitch&lang=en">
+            <fmt:message key="language.en"/>
+        </a>
+        <a class="p-2 text-dark" href="process?command=languageSwitch&lang=ru">
+            <fmt:message key="language.ru"/>
+        </a>
+    </nav>
+    <c:choose>
+        <c:when test="${empty sessionScope.user}">
+            <a class="btn btn-outline-primary" href="forward?page=loginPage">
+                <fmt:message key="navigation_jspf.sign.up"/>
+            </a>
+        </c:when>
+        <c:otherwise>
+            <a class="btn btn-outline-primary" href="forward?page=personalCabinetPage">${sessionScope.user.login}</a>
+        </c:otherwise>
+    </c:choose>
+</div>
+
+

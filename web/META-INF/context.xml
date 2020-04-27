@@ -1,0 +1,16 @@
+<!-- Change the lines below according your RDBMS and DB -->
+
+<Context>
+
+	<Resource name="jdbc/providerDB"
+		auth="Container" 
+		type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000"
+		username="localAdmin" password="providerLocalPassword"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		defaultAutoCommit="false"
+		defaultTransactionIsolation="SERIALIZABLE"
+		connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC;"
+		url="jdbc:mysql://localhost:3306/providerdb"/>
+
+</Context>

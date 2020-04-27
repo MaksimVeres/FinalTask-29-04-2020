@@ -1,0 +1,6 @@
+<%@ include file="taglib.jspf" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<c:if test="${not empty sessionScope.lang}">
+    <fmt:setLocale value="${sessionScope.lang}"/>
+</c:if>

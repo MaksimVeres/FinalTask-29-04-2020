@@ -1,0 +1,1277 @@
+2020-04-25 01:13 [DEBUG]           ContextListener:    58 - Log4j has been initialized
+2020-04-25 01:13 [TRACE]           ContextListener:   114 - [ContextListener] Log4J initialization finished
+2020-04-25 01:13 [DEBUG]          CommandContainer:   163 - Command container was successfully initialized
+2020-04-25 01:13 [TRACE]          CommandContainer:   164 - Number of commands --> 37
+2020-04-25 01:13 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-25 01:13 [TRACE]           ContextListener:   110 - Loaded locales --> {ru=Russian [Русский], en=English [English]}
+2020-04-25 01:13 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context initialization finished
+2020-04-25 01:13 [DEBUG]                ServiceDao:    73 - ServiceDao queryMap was successfully initialized
+2020-04-25 01:13 [TRACE]                ServiceDao:    74 - Number of ServiceDao queries --> 7
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    37 - Filter initialization starts
+2020-04-25 01:13 [TRACE]                 DBManager:    29 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@22bf4824
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    39 - Filter initialization finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    56 - Filter initialization starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    58 - Encoding from web.xml --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    59 - Filter initialization finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    34 - Filter initialization starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    36 - Filter initialization finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [TRACE]          DataSynchronizer:    60 - Found in DB: size of founded services --> 4
+2020-04-25 01:13 [DEBUG] ServiceSynchronizerWorker:    43 - End synchronizing list of services
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /css/index.css
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /favicon.ico
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /css/login.css
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /js/login.js
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> login
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [DEBUG]              LoginCommand:    54 - Command starts
+2020-04-25 01:13 [TRACE]              LoginCommand:    60 - Request parameter: login --> admin
+2020-04-25 01:13 [DEBUG]                   UserDao:    94 - UserDao queryMap was successfully initialized
+2020-04-25 01:13 [TRACE]                   UserDao:    95 - Number of UserDao queries --> 13
+2020-04-25 01:13 [TRACE]              LoginCommand:    70 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [TRACE]              LoginCommand:    82 - userRole --> ADMIN
+2020-04-25 01:13 [TRACE]              LoginCommand:    86 - Checking economic stability to user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:13 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:13 [DEBUG]            UserServiceDao:    82 - UserServiceDao queryMap was successfully initialized
+2020-04-25 01:13 [TRACE]            UserServiceDao:    83 - Number of UserServiceDao queries --> 8
+2020-04-25 01:13 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:13 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:13 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:13 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:13 [DEBUG]           SecurityManager:    61 - Start put logged user
+2020-04-25 01:13 [TRACE]           SecurityManager:    62 - Logged user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]           SecurityManager:    69 - Logged user was putted, total number of logged users --> 1
+2020-04-25 01:13 [DEBUG]           SecurityManager:    70 - End put logged user
+2020-04-25 01:13 [TRACE]              LoginCommand:    91 - Set the session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]              LoginCommand:    92 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:13 [DEBUG]              LoginCommand:    93 - Command finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> toMainPage
+2020-04-25 01:13 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:13 [DEBUG]         ToMainPageCommand:    26 - Command starts
+2020-04-25 01:13 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:13 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:13 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:13 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:13 [DEBUG]         ToMainPageCommand:    31 - Command finished
+2020-04-25 01:13 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:13 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:13 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:13 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:13 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:13 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:13 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:13 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:13 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:13 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> updateUserServices
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [DEBUG] UpdateUserServicesCommand:    42 - Command starts
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    46 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    58 - Found in DB: userServices of user [admin] --> []
+2020-04-25 01:13 [DEBUG]                 TariffDao:   100 - TariffDao queryMap was successfully initialized
+2020-04-25 01:13 [TRACE]                 TariffDao:   101 - Number of TariffDao queries --> 13
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    81 - Set the session attribute: userServiceMap --> {}
+2020-04-25 01:13 [DEBUG] UpdateUserServicesCommand:    84 - Command finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> toPersonalCabinet
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [DEBUG]  ToPersonalCabinetCommand:    26 - Command starts
+2020-04-25 01:13 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> forward
+2020-04-25 01:13 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> forward
+2020-04-25 01:13 [DEBUG]  ToPersonalCabinetCommand:    31 - Command finished
+2020-04-25 01:13 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> forward
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> updateUserServices
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [DEBUG] UpdateUserServicesCommand:    42 - Command starts
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    46 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    58 - Found in DB: userServices of user [admin] --> []
+2020-04-25 01:13 [TRACE] UpdateUserServicesCommand:    81 - Set the session attribute: userServiceMap --> {}
+2020-04-25 01:13 [DEBUG] UpdateUserServicesCommand:    84 - Command finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:13 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:13 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:13 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:13 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:13 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:13 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:13 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:13 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:13 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:13 [TRACE]            ServiceManager:    48 - Request parameter: command --> openTariffList
+2020-04-25 01:13 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:13 [DEBUG]        OpenTariffsCommand:    56 - Command starts
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:    59 - Request parameter: serviceId --> 1
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:    73 - Found in DB: tariffs --> [Tariff{name='Ethernet-10MB/s', connectionPayment=100.0, monthPayment=30.0, feature='Internet provides speed up to 10Mbps', serviceId=1}, Tariff{name='Ethernet-50MB/s', connectionPayment=100.0, monthPayment=60.0, feature='Internet provides speed up to 50Mbps', serviceId=1}, Tariff{name='Ethernet-100MB/s', connectionPayment=120.0, monthPayment=100.0, feature='Internet provides speed up to 100Mbps', serviceId=1}, Tariff{name='Ethernet-500MB/s', connectionPayment=150.0, monthPayment=160.0, feature='Internet provides speed up to 500Mbps', serviceId=1}, Tariff{name='Ethernet-1000MB/s', connectionPayment=250.0, monthPayment=225.0, feature='Internet provides speed up to 1000Mbps', serviceId=1}]
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:    76 - Request parameter: sort --> null
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:   106 - Found in DB: service --> Service{name='Internet'}
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:   110 - Set the request attribute: requestedTariffs --> [Tariff{name='Ethernet-1000MB/s', connectionPayment=250.0, monthPayment=225.0, feature='Internet provides speed up to 1000Mbps', serviceId=1}, Tariff{name='Ethernet-100MB/s', connectionPayment=120.0, monthPayment=100.0, feature='Internet provides speed up to 100Mbps', serviceId=1}, Tariff{name='Ethernet-10MB/s', connectionPayment=100.0, monthPayment=30.0, feature='Internet provides speed up to 10Mbps', serviceId=1}, Tariff{name='Ethernet-500MB/s', connectionPayment=150.0, monthPayment=160.0, feature='Internet provides speed up to 500Mbps', serviceId=1}, Tariff{name='Ethernet-50MB/s', connectionPayment=100.0, monthPayment=60.0, feature='Internet provides speed up to 50Mbps', serviceId=1}]
+2020-04-25 01:13 [TRACE]        OpenTariffsCommand:   112 - Set the request attribute: requestedTariffsLinkedService --> Service{name='Internet'}
+2020-04-25 01:13 [DEBUG]        OpenTariffsCommand:   115 - Command finished
+2020-04-25 01:13 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:14 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:14 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:14 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:14 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:14 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:14 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:14 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> openTariffList
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]        OpenTariffsCommand:    56 - Command starts
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:    59 - Request parameter: serviceId --> 1
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:    73 - Found in DB: tariffs --> [Tariff{name='Ethernet-10MB/s', connectionPayment=100.0, monthPayment=30.0, feature='Internet provides speed up to 10Mbps', serviceId=1}, Tariff{name='Ethernet-50MB/s', connectionPayment=100.0, monthPayment=60.0, feature='Internet provides speed up to 50Mbps', serviceId=1}, Tariff{name='Ethernet-100MB/s', connectionPayment=120.0, monthPayment=100.0, feature='Internet provides speed up to 100Mbps', serviceId=1}, Tariff{name='Ethernet-500MB/s', connectionPayment=150.0, monthPayment=160.0, feature='Internet provides speed up to 500Mbps', serviceId=1}, Tariff{name='Ethernet-1000MB/s', connectionPayment=250.0, monthPayment=225.0, feature='Internet provides speed up to 1000Mbps', serviceId=1}]
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:    76 - Request parameter: sort --> connectionPayment
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:   106 - Found in DB: service --> Service{name='Internet'}
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:   110 - Set the request attribute: requestedTariffs --> [Tariff{name='Ethernet-10MB/s', connectionPayment=100.0, monthPayment=30.0, feature='Internet provides speed up to 10Mbps', serviceId=1}, Tariff{name='Ethernet-50MB/s', connectionPayment=100.0, monthPayment=60.0, feature='Internet provides speed up to 50Mbps', serviceId=1}, Tariff{name='Ethernet-100MB/s', connectionPayment=120.0, monthPayment=100.0, feature='Internet provides speed up to 100Mbps', serviceId=1}, Tariff{name='Ethernet-500MB/s', connectionPayment=150.0, monthPayment=160.0, feature='Internet provides speed up to 500Mbps', serviceId=1}, Tariff{name='Ethernet-1000MB/s', connectionPayment=250.0, monthPayment=225.0, feature='Internet provides speed up to 1000Mbps', serviceId=1}]
+2020-04-25 01:14 [TRACE]        OpenTariffsCommand:   112 - Set the request attribute: requestedTariffsLinkedService --> Service{name='Internet'}
+2020-04-25 01:14 [DEBUG]        OpenTariffsCommand:   115 - Command finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:14 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:14 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:14 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:14 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:14 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:14 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:14 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-25 01:14 [TRACE]          DataSynchronizer:    60 - Found in DB: size of founded services --> 4
+2020-04-25 01:14 [DEBUG] ServiceSynchronizerWorker:    43 - End synchronizing list of services
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> getUsers
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]                GetCommand:    36 - Command starts
+2020-04-25 01:14 [TRACE]                GetCommand:    49 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]                GetCommand:    55 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    78 - Request parameter: searchAll --> true
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    86 - Found in DB: users, size --> 3
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   133 - Request parameter: sortColumn --> null
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   117 - Set the session attribute: requestedUsers, size --> 3
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   119 - Set the session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:14 [DEBUG]                GetCommand:    38 - Command finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> getUsers
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]                GetCommand:    36 - Command starts
+2020-04-25 01:14 [TRACE]                GetCommand:    49 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]                GetCommand:    55 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    78 - Request parameter: searchAll --> true
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    86 - Found in DB: users, size --> 3
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   133 - Request parameter: sortColumn --> null
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   117 - Set the session attribute: requestedUsers, size --> 3
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   119 - Set the session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:14 [DEBUG]                GetCommand:    38 - Command finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> deleteUser
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]         DeleteUserCommand:    53 - Command starts
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    56 - Requested parameter: id --> 3
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    65 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:    71 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    90 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    99 - Found in DB: linked user services, size --> 0
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:   104 - 0 linked user services to user [A] was deleted
+2020-04-25 01:14 [DEBUG]              UserOrderDao:    82 - UserOrderDao queryMap was successfully initialized
+2020-04-25 01:14 [TRACE]              UserOrderDao:    83 - Number of UserOrderDao queries --> 8
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:   110 - Found in DB: linked user orders, size --> 0
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:   115 - 0 linked user orders to user [A] was deleted
+2020-04-25 01:14 [DEBUG]           UserDescribeDao:    82 - UserDescribeDao queryMap was successfully initialized
+2020-04-25 01:14 [TRACE]           UserDescribeDao:    83 - Number of UserDescribeDao queries --> 7
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:   123 - Found in DB: linked user describes, size --> 0
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:   128 - 0 linked user describes to user [A] was deleted
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:   132 - User was deleted --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:14 [DEBUG]         DeleteUserCommand:   134 - Command finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:14 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:14 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:14 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:14 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:14 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:14 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:14 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> deleteUser
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]         DeleteUserCommand:    53 - Command starts
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    56 - Requested parameter: id --> 3
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    65 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]         DeleteUserCommand:    71 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:14 [TRACE]         DeleteUserCommand:    90 - Found in DB: user --> null
+2020-04-25 01:14 [ERROR]            ServiceManager:   115 - Cannot do user update: no such user in db
+ua.nure.veres.summaryTask.exception.user.UserUpdateException: Cannot do user update: no such user in db
+	at ua.nure.veres.summaryTask.web.command.delete.DeleteUserCommand.execute(DeleteUserCommand.java:93)
+	at ua.nure.veres.summaryTask.service.ServiceManager.doCommandByRedirect(ServiceManager.java:145)
+	at ua.nure.veres.summaryTask.service.ServiceManager.doService(ServiceManager.java:79)
+	at ua.nure.veres.summaryTask.web.Controller.process(Controller.java:31)
+	at ua.nure.veres.summaryTask.web.Controller.doGet(Controller.java:20)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.nure.veres.summaryTask.web.filter.JspFilter.doFilter(JspFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.nure.veres.summaryTask.web.filter.EncodingFilter.doFilter(EncodingFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.nure.veres.summaryTask.web.filter.MoveToFilter.doFilter(MoveToFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.nure.veres.summaryTask.web.filter.UserUpdateFilter.doFilter(UserUpdateFilter.java:60)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:688)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-25 01:14 [DEBUG]          ExceptionCatcher:    46 - Handling exception --> ua.nure.veres.summaryTask.exception.user.UserUpdateException: Cannot do user update: no such user in db
+2020-04-25 01:14 [TRACE]          ExceptionCatcher:    55 - Set the request attribute: errorTitle --> ufe.user.update.exception.title
+2020-04-25 01:14 [TRACE]          ExceptionCatcher:    57 - Set the request attribute: ufErrorMessage --> ufe.user.update.exception.message
+2020-04-25 01:14 [TRACE]          ExceptionCatcher:    59 - Set the request attribute: errorMessage --> Cannot do user update: no such user in db
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:14 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:14 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:14 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:14 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:14 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:14 [TRACE]            ServiceManager:    48 - Request parameter: command --> getUsers
+2020-04-25 01:14 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:14 [DEBUG]                GetCommand:    36 - Command starts
+2020-04-25 01:14 [TRACE]                GetCommand:    49 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]                GetCommand:    55 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    78 - Request parameter: searchAll --> true
+2020-04-25 01:14 [TRACE]           GetUsersCommand:    86 - Found in DB: users, size --> 2
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   133 - Request parameter: sortColumn --> null
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   117 - Set the session attribute: requestedUsers, size --> 2
+2020-04-25 01:14 [TRACE]           GetUsersCommand:   119 - Set the session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:14 [DEBUG]                GetCommand:    38 - Command finished
+2020-04-25 01:14 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:14 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:14 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:14 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:14 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:14 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:14 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:14 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:14 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:14 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:14 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:14 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:14 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:15 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:15 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:15 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:15 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:15 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:15 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:15 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:15 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:15 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:15 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:15 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:15 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:15 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:15 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:15 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-25 01:15 [TRACE]          DataSynchronizer:    60 - Found in DB: size of founded services --> 4
+2020-04-25 01:15 [DEBUG] ServiceSynchronizerWorker:    43 - End synchronizing list of services
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:15 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:15 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:15 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:15 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:15 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:15 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:15 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:15 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:15 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:15 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:15 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:15 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:15 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:15 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:15 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:15 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:16 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:16 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:16 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-25 01:16 [TRACE]          DataSynchronizer:    60 - Found in DB: size of founded services --> 4
+2020-04-25 01:16 [DEBUG] ServiceSynchronizerWorker:    43 - End synchronizing list of services
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    70 - Filter destruction starts
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    72 - Filter destruction finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    30 - Filter destruction starts
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    32 - Filter destruction finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    56 - Filter destruction starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    58 - Filter destruction finished
+2020-04-25 01:16 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction starts
+2020-04-25 01:16 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction finished
+2020-04-25 01:16 [DEBUG]           ContextListener:    58 - Log4j has been initialized
+2020-04-25 01:16 [TRACE]           ContextListener:   114 - [ContextListener] Log4J initialization finished
+2020-04-25 01:16 [DEBUG]          CommandContainer:   163 - Command container was successfully initialized
+2020-04-25 01:16 [TRACE]          CommandContainer:   164 - Number of commands --> 37
+2020-04-25 01:16 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-25 01:16 [TRACE]           ContextListener:   110 - Loaded locales --> {ru=Russian [Русский], en=English [English]}
+2020-04-25 01:16 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context initialization finished
+2020-04-25 01:16 [DEBUG]                ServiceDao:    73 - ServiceDao queryMap was successfully initialized
+2020-04-25 01:16 [TRACE]                ServiceDao:    74 - Number of ServiceDao queries --> 7
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    37 - Filter initialization starts
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    39 - Filter initialization finished
+2020-04-25 01:16 [TRACE]                 DBManager:    29 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@22132e11
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    56 - Filter initialization starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    58 - Encoding from web.xml --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    59 - Filter initialization finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    34 - Filter initialization starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    36 - Filter initialization finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [TRACE]          DataSynchronizer:    60 - Found in DB: size of founded services --> 4
+2020-04-25 01:16 [DEBUG] ServiceSynchronizerWorker:    43 - End synchronizing list of services
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /favicon.ico
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> login
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [DEBUG]              LoginCommand:    54 - Command starts
+2020-04-25 01:16 [TRACE]              LoginCommand:    60 - Request parameter: login --> admin
+2020-04-25 01:16 [DEBUG]                   UserDao:    94 - UserDao queryMap was successfully initialized
+2020-04-25 01:16 [TRACE]                   UserDao:    95 - Number of UserDao queries --> 13
+2020-04-25 01:16 [TRACE]              LoginCommand:    70 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [TRACE]              LoginCommand:    82 - userRole --> ADMIN
+2020-04-25 01:16 [TRACE]              LoginCommand:    86 - Checking economic stability to user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [DEBUG]            UserServiceDao:    82 - UserServiceDao queryMap was successfully initialized
+2020-04-25 01:16 [TRACE]            UserServiceDao:    83 - Number of UserServiceDao queries --> 8
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [DEBUG]           SecurityManager:    61 - Start put logged user
+2020-04-25 01:16 [TRACE]           SecurityManager:    62 - Logged user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]           SecurityManager:    69 - Logged user was putted, total number of logged users --> 1
+2020-04-25 01:16 [DEBUG]           SecurityManager:    70 - End put logged user
+2020-04-25 01:16 [TRACE]              LoginCommand:    91 - Set the session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]              LoginCommand:    92 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:16 [DEBUG]              LoginCommand:    93 - Command finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> toMainPage
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [DEBUG]         ToMainPageCommand:    26 - Command starts
+2020-04-25 01:16 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-11]
+2020-04-25 01:16 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]         ToMainPageCommand:    31 - Command finished
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> logout
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [DEBUG]             LogoutCommand:    33 - Command starts
+2020-04-25 01:16 [TRACE]             LogoutCommand:    37 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:    78 - Start remove logged user
+2020-04-25 01:16 [TRACE]           SecurityManager:    79 - Logged user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:16 [ INFO]           SecurityManager:    86 - Logged user was removed, total number of logged users --> 0
+2020-04-25 01:16 [DEBUG]           SecurityManager:    87 - End remove logged user
+2020-04-25 01:16 [DEBUG]             LogoutCommand:    45 - Command finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> toLoginPage
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [DEBUG]        ToLoginPageCommand:    26 - Command starts
+2020-04-25 01:16 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]        ToLoginPageCommand:    31 - Command finished
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> submitRegister
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [TRACE]     SubmitRegisterCommand:    46 - Request parameter: login --> A
+2020-04-25 01:16 [TRACE]     SubmitRegisterCommand:    55 - Found in DB (expected null): user --> null
+2020-04-25 01:16 [TRACE]     SubmitRegisterCommand:    64 - Password was hashed
+2020-04-25 01:16 [ INFO]     SubmitRegisterCommand:    73 - User created --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]     SubmitRegisterCommand:    79 - Command finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> login
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [DEBUG]              LoginCommand:    54 - Command starts
+2020-04-25 01:16 [TRACE]              LoginCommand:    60 - Request parameter: login --> A
+2020-04-25 01:16 [TRACE]              LoginCommand:    70 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [TRACE]              LoginCommand:    82 - userRole --> CUSTOMER
+2020-04-25 01:16 [TRACE]              LoginCommand:    86 - Checking economic stability to user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [A], size --> 0
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [A] --> 0.0
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [A] was decreased with an amount of --> 0.0, new account state --> 0.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [DEBUG]           SecurityManager:    61 - Start put logged user
+2020-04-25 01:16 [TRACE]           SecurityManager:    62 - Logged user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [ INFO]           SecurityManager:    69 - Logged user was putted, total number of logged users --> 1
+2020-04-25 01:16 [DEBUG]           SecurityManager:    70 - End put logged user
+2020-04-25 01:16 [TRACE]              LoginCommand:    91 - Set the session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [ INFO]              LoginCommand:    92 - User User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0} logged as customer
+2020-04-25 01:16 [DEBUG]              LoginCommand:    93 - Command finished
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    32 - Start updating user [A]
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:16 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:16 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:16 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:16 [TRACE]            PaymentManager:   101 - User --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:16 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:16 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:16 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:16 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:16 [TRACE]            PaymentManager:   137 - Found in DB: services of user [A], size --> 0
+2020-04-25 01:16 [TRACE]            ServiceManager:    48 - Request parameter: command --> toMainPage
+2020-04-25 01:16 [ INFO]            PaymentManager:   142 - Total payment for user [A] --> 0.0
+2020-04-25 01:16 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:16 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]         ToMainPageCommand:    26 - Command starts
+2020-04-25 01:16 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [ INFO]            PaymentManager:   155 - Account of user with login [A] was decreased with an amount of --> 0.0, new account state --> 0.0
+2020-04-25 01:16 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [TRACE]            SecurityWorker:    43 - User [A] was updated by security worker [Thread-12]
+2020-04-25 01:16 [DEBUG]         ToMainPageCommand:    31 - Command finished
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    47 - End updating user [A]
+2020-04-25 01:16 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:16 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:16 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:16 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:16 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:16 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:16 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:16 [TRACE]            SecurityWorker:    36 - User [admin] is logged out, stopping security checking
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> updateUserServices
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG] UpdateUserServicesCommand:    42 - Command starts
+2020-04-25 01:17 [TRACE] UpdateUserServicesCommand:    46 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [TRACE] UpdateUserServicesCommand:    58 - Found in DB: userServices of user [A] --> []
+2020-04-25 01:17 [DEBUG]                 TariffDao:   100 - TariffDao queryMap was successfully initialized
+2020-04-25 01:17 [TRACE]                 TariffDao:   101 - Number of TariffDao queries --> 13
+2020-04-25 01:17 [TRACE] UpdateUserServicesCommand:    81 - Set the session attribute: userServiceMap --> {}
+2020-04-25 01:17 [DEBUG] UpdateUserServicesCommand:    84 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> toPersonalCabinet
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]  ToPersonalCabinetCommand:    26 - Command starts
+2020-04-25 01:17 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> forward
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> forward
+2020-04-25 01:17 [DEBUG]  ToPersonalCabinetCommand:    31 - Command finished
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> forward
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> logout
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]             LogoutCommand:    33 - Command starts
+2020-04-25 01:17 [TRACE]             LogoutCommand:    37 - Session attribute: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:    78 - Start remove logged user
+2020-04-25 01:17 [TRACE]           SecurityManager:    79 - Logged user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [ INFO]           SecurityManager:    86 - Logged user was removed, total number of logged users --> 0
+2020-04-25 01:17 [DEBUG]           SecurityManager:    87 - End remove logged user
+2020-04-25 01:17 [DEBUG]             LogoutCommand:    45 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> toLoginPage
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]        ToLoginPageCommand:    26 - Command starts
+2020-04-25 01:17 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]        ToLoginPageCommand:    31 - Command finished
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> login
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]              LoginCommand:    54 - Command starts
+2020-04-25 01:17 [TRACE]              LoginCommand:    60 - Request parameter: login --> admin
+2020-04-25 01:17 [TRACE]              LoginCommand:    70 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [TRACE]              LoginCommand:    82 - userRole --> ADMIN
+2020-04-25 01:17 [TRACE]              LoginCommand:    86 - Checking economic stability to user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:17 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:17 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:17 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:17 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:17 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:17 [DEBUG]           SecurityManager:    61 - Start put logged user
+2020-04-25 01:17 [TRACE]           SecurityManager:    62 - Logged user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]           SecurityManager:    69 - Logged user was putted, total number of logged users --> 1
+2020-04-25 01:17 [DEBUG]           SecurityManager:    70 - End put logged user
+2020-04-25 01:17 [TRACE]              LoginCommand:    91 - Set the session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]              LoginCommand:    92 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:17 [DEBUG]              LoginCommand:    93 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            SecurityWorker:    32 - Start updating user [admin]
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]           SecurityManager:    97 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]            PaymentManager:   100 - Start check economic stability
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [TRACE]            PaymentManager:   101 - User --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [ INFO]            PaymentManager:   108 - User status --> normal
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [TRACE]            PaymentManager:   137 - Found in DB: services of user [admin], size --> 0
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [ INFO]            PaymentManager:   142 - Total payment for user [admin] --> 0.0
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> toMainPage
+2020-04-25 01:17 [TRACE]            PaymentManager:   151 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]         ToMainPageCommand:    26 - Command starts
+2020-04-25 01:17 [ INFO]            PaymentManager:   155 - Account of user with login [admin] was decreased with an amount of --> 0.0, new account state --> 10000.0
+2020-04-25 01:17 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]            PaymentManager:   160 - End check economic stability
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [TRACE]            SecurityWorker:    43 - User [admin] was updated by security worker [Thread-13]
+2020-04-25 01:17 [DEBUG]         ToMainPageCommand:    31 - Command finished
+2020-04-25 01:17 [DEBUG]            SecurityWorker:    47 - End updating user [admin]
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            SecurityWorker:    32 - Start updating user [A]
+2020-04-25 01:17 [TRACE]            SecurityWorker:    36 - User [A] is logged out, stopping security checking
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> getUsers
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]                GetCommand:    36 - Command starts
+2020-04-25 01:17 [TRACE]                GetCommand:    49 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]                GetCommand:    55 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:17 [TRACE]           GetUsersCommand:    78 - Request parameter: searchAll --> true
+2020-04-25 01:17 [TRACE]           GetUsersCommand:    86 - Found in DB: users, size --> 3
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   133 - Request parameter: sortColumn --> null
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   117 - Set the session attribute: requestedUsers, size --> 3
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   119 - Set the session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:17 [DEBUG]                GetCommand:    38 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> deleteUser
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]         DeleteUserCommand:    55 - Command starts
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:    58 - Requested parameter: id --> 4
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:    67 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]         DeleteUserCommand:    73 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:    92 - Found in DB: user --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:   101 - Found in DB: linked user services, size --> 0
+2020-04-25 01:17 [ INFO]         DeleteUserCommand:   106 - 0 linked user services to user [A] was deleted
+2020-04-25 01:17 [DEBUG]              UserOrderDao:    82 - UserOrderDao queryMap was successfully initialized
+2020-04-25 01:17 [TRACE]              UserOrderDao:    83 - Number of UserOrderDao queries --> 8
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:   112 - Found in DB: linked user orders, size --> 0
+2020-04-25 01:17 [ INFO]         DeleteUserCommand:   117 - 0 linked user orders to user [A] was deleted
+2020-04-25 01:17 [DEBUG]           UserDescribeDao:    82 - UserDescribeDao queryMap was successfully initialized
+2020-04-25 01:17 [TRACE]           UserDescribeDao:    83 - Number of UserDescribeDao queries --> 7
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:   125 - Found in DB: linked user describes, size --> 0
+2020-04-25 01:17 [ INFO]         DeleteUserCommand:   130 - 0 linked user describes to user [A] was deleted
+2020-04-25 01:17 [ INFO]         DeleteUserCommand:   134 - User was deleted --> User{login='A', firstName='Unknown first name', lastName='Unknown last name', roleId=1, statusId=0, accountState=0.0}
+2020-04-25 01:17 [DEBUG]         DeleteUserCommand:   136 - Command finished
+2020-04-25 01:17 [TRACE]         DeleteUserCommand:   139 - Session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> getUsers
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]                GetCommand:    36 - Command starts
+2020-04-25 01:17 [TRACE]                GetCommand:    49 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]                GetCommand:    55 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-04-25 01:17 [TRACE]           GetUsersCommand:    78 - Request parameter: searchAll --> true
+2020-04-25 01:17 [TRACE]           GetUsersCommand:    86 - Found in DB: users, size --> 2
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   133 - Request parameter: sortColumn --> null
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   117 - Set the session attribute: requestedUsers, size --> 2
+2020-04-25 01:17 [TRACE]           GetUsersCommand:   119 - Set the session attribute: replyRequest --> process?command=getUsers&searchAll=true
+2020-04-25 01:17 [DEBUG]                GetCommand:    38 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   112 - Start refresh user
+2020-04-25 01:17 [TRACE]           SecurityManager:   115 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:   135 - End refresh user
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    59 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> logout
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]             LogoutCommand:    33 - Command starts
+2020-04-25 01:17 [TRACE]             LogoutCommand:    37 - Session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [DEBUG]           SecurityManager:    78 - Start remove logged user
+2020-04-25 01:17 [TRACE]           SecurityManager:    79 - Logged user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-04-25 01:17 [ INFO]           SecurityManager:    86 - Logged user was removed, total number of logged users --> 0
+2020-04-25 01:17 [DEBUG]           SecurityManager:    87 - End remove logged user
+2020-04-25 01:17 [DEBUG]             LogoutCommand:    45 - Command finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    39 - Filter starts
+2020-04-25 01:17 [TRACE]            EncodingFilter:    42 - Request uri --> /process
+2020-04-25 01:17 [TRACE]            EncodingFilter:    46 - Request encoding = null, set encoding --> UTF-8
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    50 - Filter finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    42 - Filter starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    46 - Filter finished
+2020-04-25 01:17 [DEBUG]            ServiceManager:    45 - Start do service
+2020-04-25 01:17 [TRACE]            ServiceManager:    48 - Request parameter: command --> toLoginPage
+2020-04-25 01:17 [DEBUG]            ServiceManager:    53 - Try to execute command
+2020-04-25 01:17 [DEBUG]        ToLoginPageCommand:    26 - Command starts
+2020-04-25 01:17 [TRACE]            ForwardCommand:    38 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]        ToLoginPageCommand:    31 - Command finished
+2020-04-25 01:17 [TRACE]            ForwardCommand:    55 - Request parameter: forwardMethod --> redirect
+2020-04-25 01:17 [DEBUG]            ServiceManager:   119 - End do service
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    46 - Filter starts
+2020-04-25 01:17 [TRACE]          UserUpdateFilter:    52 - Session attribute: user --> null
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    55 - Filter finished
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    70 - Filter destruction starts
+2020-04-25 01:17 [DEBUG]          UserUpdateFilter:    72 - Filter destruction finished
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    30 - Filter destruction starts
+2020-04-25 01:17 [DEBUG]            EncodingFilter:    32 - Filter destruction finished
+2020-04-25 01:17 [DEBUG]                 JspFilter:    56 - Filter destruction starts
+2020-04-25 01:17 [DEBUG]                 JspFilter:    58 - Filter destruction finished
+2020-04-25 01:17 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction starts
+2020-04-25 01:17 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction finished

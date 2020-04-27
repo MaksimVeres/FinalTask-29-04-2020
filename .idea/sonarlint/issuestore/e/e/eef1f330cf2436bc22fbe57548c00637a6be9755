@@ -1,0 +1,21 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™Àƒ³
+`
+java:S1128">Remove this unused import 'ua.nure.veres.summaryTask.dao.Dao'.(Î¥¥‹ûÿÿÿÿ8áúÌœ›.
+t
+java:S1128"RRemove this unused import 'ua.nure.veres.summaryTask.dao.tariff.TariffDaoFactory'.(«ûÎòúÿÿÿÿ8áúÌœ›.
+[
+java:S1128
+">Remove this unused import 'ua.nure.veres.summaryTask.db.Role'.(ÊèâŸ8İ–  –.
+X
+java:S1128";Remove this unused import 'javax.servlet.http.HttpSession'.(í¨ô8İ–  –.
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8İ–  –.
+q
+java:S1128"TRemove this unused import 'ua.nure.veres.summaryTask.dao.service.ServiceDaoFactory'.(Ş–˜8áúÌœ›.
+~
+java:S1128	"\Remove this unused import 'ua.nure.veres.summaryTask.dao.userService.UserServiceDaoFactory'.(¿ÑìÓşÿÿÿÿ8’¶„œ›.
+p
+java:S1128"NRemove this unused import 'ua.nure.veres.summaryTask.dao.user.UserDaoFactory'.(¦Ë«œüÿÿÿÿ8áúÌœ›.
+ˆ
+java:S1128"fRemove this unused import 'ua.nure.veres.summaryTask.exception.command.access.CommandAccessException'.(Ôº—„úÿÿÿÿ8İ–  –.

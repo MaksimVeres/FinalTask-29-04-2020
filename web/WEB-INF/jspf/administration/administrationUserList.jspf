@@ -1,0 +1,164 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">
+                            <fmt:message key="search.by.user.login"/>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="title"><fmt:message key="search.founded.amount"/>:
+                            <c:choose>
+                                <c:when test="${not empty sessionScope.requestedUsers}">
+                                    ${sessionScope.requestedUsers.size()}
+                                </c:when>
+                                <c:otherwise>
+                                    0
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+
+                        <fmt:message key="search.placeholder.find" var="find"/>
+                        <fmt:message key="administrationPanelUserList_jspf.placeholder.login" var="login"/>
+                        <form method="post" action="process?command=getUsers">
+                            <label>
+                                <input type="text" class="form-control" name="searchLogin" placeholder="${login}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <input type="submit" name="Find" class="btn btn-lg btn-block btn-outline-primary"
+                                       value="${find}">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+               href="process?command=getUsers&searchAll=true">
+                <fmt:message key="search.show.all"/>
+            </a>
+        </div>
+    </div>
+
+    <br/>
+
+    <c:choose>
+        <c:when test="${not empty sessionScope.requestedUsers}">
+            <div class="row justify-content-center">
+                <br/>
+                <div class="col-auto">
+                    <h2 class="text-center">
+                        <fmt:message key="administrationPanelUserList_jspf.foundedUsers"/>
+                    </h2>
+                    <br/>
+
+                    <table class="table">
+
+                        <thead>
+                        <tr>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=id">
+                                <fmt:message key="table.id"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=login">
+                                <fmt:message key="table.login"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=firstName">
+                                <fmt:message key="table.first.name"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=lastName">
+                                <fmt:message key="table.last.name"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=roleId">
+                                <fmt:message key="table.role"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=statusId">
+                                <fmt:message key="table.status"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=accountState">
+                                <fmt:message key="table.accountState"/>
+                            </a></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        <c:forEach var="item" items="${sessionScope.requestedUsers}">
+                            <c:set var="id" value="${item.id}"/>
+                            <tr>
+                                <td>${id}</td>
+                                <td>${item.login}</td>
+                                <td>${item.firstName}</td>
+                                <td>${item.lastName}</td>
+                                <td>${item.role}</td>
+                                <td>${item.status}</td>
+                                <td>${item.accountState}</td>
+                                <td>
+
+                                    <a class="btn bg-danger btn-outline-danger text-light"
+                                       href="process?command=deleteUser&id=${item.id}">
+                                        <fmt:message key="deleting.delete"/>
+                                    </a>
+                                </td>
+
+                                <td>
+                                    <c:choose>
+                                        <c:when test="${item.roleId == 0}">
+                                            <a class="btn bg-info btn-outline-info text-light"
+                                               href="process?command=changeUserRole&login=${item.login}&roleId=1">
+                                                <fmt:message key="administrationPanelUserList_jspf.role.customer"/>
+                                            </a>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <a class="btn bg-info btn-outline-info text-light"
+                                               href="process?command=changeUserRole&login=${item.login}&roleId=0">
+                                                <fmt:message key="administrationPanelUserList_jspf.role.admin"/>
+                                            </a>
+                                        </c:otherwise>
+                                    </c:choose>
+                                </td>
+
+                                <td>
+
+                                    <c:if test="${item.statusId != 0}">
+                                        <a class="btn bg-success btn-outline-success text-light"
+                                           href="process?command=changeUserStatus&login=${item.login}&statusId=0">
+                                            <fmt:message key="administrationPanelUserList_jspf.status.active"/>
+                                        </a>
+                                    </c:if>
+
+                                    <c:if test="${item.statusId != 1}">
+                                        <a class="btn bg-secondary btn-outline-secondary text-light"
+                                           href="process?command=changeUserStatus&login=${item.login}&statusId=1">
+                                            <fmt:message key="administrationPanelUserList_jspf.status.stopped"/>
+                                        </a>
+                                    </c:if>
+
+                                </td>
+
+                            </tr>
+                        </c:forEach>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            </div>
+        </c:when>
+        <c:otherwise>
+            <div class="row justify-content-center">
+                <fmt:message key="search.no.results"/>
+            </div>
+        </c:otherwise>
+    </c:choose>
+</div>

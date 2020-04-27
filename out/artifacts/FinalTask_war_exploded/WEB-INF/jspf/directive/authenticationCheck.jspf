@@ -1,0 +1,4 @@
+<%@ include file="taglib.jspf"%>
+<c:if test="${empty sessionScope.user}">
+    <c:redirect url="/process?command=toMainPage&forwardMethod=redirect"/>
+</c:if>

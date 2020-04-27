@@ -1,0 +1,16 @@
+<%@ include file="../directive/taglib.jspf" %>
+
+<div id="form-container" class="container moveDown">
+    <div id="form-row" class="row bg-white text-center border border-primary rounded">
+        <div class="col text-center">
+            <span id="form-main-text" class="form-text">
+                <fmt:message key="describeSubmittedForm_jspf.describe.submitted.message"/>
+            </span>
+            <br/>
+            <a class="btn btn-outline-primary" href="forward?page=mainPage">
+                <fmt:message key="forward.toMainPage"/>
+            </a>
+            <hr/>
+        </div>
+    </div>
+</div>

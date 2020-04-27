@@ -1,0 +1,78 @@
+2020-04-23 17:33 [DEBUG]           ContextListener:    58 - Log4j has been initialized
+2020-04-23 17:33 [TRACE]           ContextListener:   114 - [ContextListener] Log4J initialization finished
+2020-04-23 17:33 [DEBUG]          CommandContainer:    97 - Command container was successfully initialized
+2020-04-23 17:33 [TRACE]          CommandContainer:    98 - Number of commands --> 37
+2020-04-23 17:33 [DEBUG] ServiceSynchronizerWorker:    33 - Start synchronizing list of services
+2020-04-23 17:33 [TRACE]           ContextListener:   110 - Loaded locales --> {ru=Russian [Русский], en=English [English]}
+2020-04-23 17:33 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context initialization finished
+2020-04-23 17:33 [DEBUG]                ServiceDao:    73 - ServiceDao queryMap was successfully initialized
+2020-04-23 17:33 [TRACE]                ServiceDao:    74 - Number of ServiceDao queries --> 7
+2020-04-23 17:33 [DEBUG]          UserUpdateFilter:    37 - Filter initialization starts
+2020-04-23 17:33 [DEBUG]          UserUpdateFilter:    39 - Filter initialization finished
+2020-04-23 17:33 [TRACE]                 DBManager:    30 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@75d3685b
+2020-04-23 17:33 [DEBUG]            EncodingFilter:    56 - Filter initialization starts
+2020-04-23 17:33 [TRACE]            EncodingFilter:    58 - Encoding from web.xml --> UTF-8
+2020-04-23 17:33 [DEBUG]            EncodingFilter:    59 - Filter initialization finished
+2020-04-23 17:33 [DEBUG]                 JspFilter:    34 - Filter initialization starts
+2020-04-23 17:33 [DEBUG]                 JspFilter:    36 - Filter initialization finished
+2020-04-23 17:33 [DEBUG]          UserUpdateFilter:    70 - Filter destruction starts
+2020-04-23 17:33 [DEBUG]          UserUpdateFilter:    72 - Filter destruction finished
+2020-04-23 17:33 [DEBUG]            EncodingFilter:    30 - Filter destruction starts
+2020-04-23 17:33 [DEBUG]            EncodingFilter:    32 - Filter destruction finished
+2020-04-23 17:33 [DEBUG]                 JspFilter:    56 - Filter destruction starts
+2020-04-23 17:33 [DEBUG]                 JspFilter:    58 - Filter destruction finished
+2020-04-23 17:33 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction starts
+2020-04-23 17:33 [TRACE]           ContextListener:   114 - [ContextListener] Servlet context destruction finished
+2020-04-23 17:33 [ERROR]                 DBManager:    61 - Cannot obtain a connection from the pool
+java.sql.SQLException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:669)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createDataSource(BasicDataSource.java:544)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.getConnection(BasicDataSource.java:753)
+	at ua.nure.veres.summaryTask.db.DBManager.getConnection(DBManager.java:59)
+	at ua.nure.veres.summaryTask.dao.service.ServiceDao.read(ServiceDao.java:156)
+	at ua.nure.veres.summaryTask.ee.data.DataSynchronizer.synchronizeServices(DataSynchronizer.java:59)
+	at ua.nure.veres.summaryTask.ee.data.service.ServiceSynchronizerWorker.run(ServiceSynchronizerWorker.java:36)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:55)
+	at org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:355)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.validateConnectionFactory(BasicDataSource.java:115)
+	at org.apache.tomcat.dbcp.dbcp2.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:665)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 13 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more

@@ -1,0 +1,128 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">
+                            <fmt:message key="search.by.user.login"/>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="title"><fmt:message key="search.founded.amount"/>:
+                            <c:choose>
+                                <c:when test="${not empty sessionScope.requestDescribeBeans}">
+                                    ${sessionScope.requestDescribeBeans.size()}
+                                </c:when>
+                                <c:otherwise>
+                                    0
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+                        <fmt:message key="search.placeholder.user.login" var="userLogin"/>
+                        <fmt:message key="search.placeholder.find" var="find"/>
+                        <form method="post" action="process?command=getUserDescribeRequests">
+                            <label>
+                                <input type="text" class="form-control" name="searchLogin" placeholder="${userLogin}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <input type="submit" name="Find" class="btn btn-lg btn-block btn-outline-primary"
+                                       value="${find}">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+               href="process?command=getUserDescribeRequests&searchAll=true">
+                <fmt:message key="search.show.all"/>
+            </a>
+        </div>
+    </div>
+
+    <br/>
+
+    <c:choose>
+        <c:when test="${not empty sessionScope.requestDescribeBeans}">
+            <div class="row justify-content-center">
+                <br/>
+                <div class="col-auto">
+                    <h2 class="text-center"><fmt:message key="administrationDescribeRequests_jspf.describeRequests"/></h2>
+                    <br/>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=id">Id</a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=login">
+                                <fmt:message key="table.login"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=firstName">
+                                <fmt:message key="table.first.name"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=lastName">
+                                <fmt:message key="table.last.name"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=phone">
+                                <fmt:message key="table.phone"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=service">
+                                <fmt:message key="table.service"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=tariff">
+                                <fmt:message key="table.tariff"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=comment">
+                                <fmt:message key="table.comment"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyDescribeRequest}&sortColumn=requestDate">
+                                <fmt:message key="table.describe.date"/>
+                            </a>
+                            </th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <c:forEach var="bean" items="${sessionScope.requestDescribeBeans}">
+                            <tr>
+                                <td>${bean.userRequestId}</td>
+                                <td>${bean.userLogin}</td>
+                                <td>${bean.userFirstName}</td>
+                                <td>${bean.userLastName}</td>
+                                <td>${bean.userPhone}</td>
+                                <td>${bean.serviceName}</td>
+                                <td>${bean.tariffName}</td>
+                                <td>${bean.comment}</td>
+                                <td>${bean.requestDate}</td>
+                                <td>
+                                    <a class="btn btn-outline-success bg-success text-light"
+                                       href="process?command=submitDescribeRequest&userRequestId=${bean.userRequestId}">
+                                        <fmt:message key="administrationDescribeRequests_jspf.describe"/>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-outline-danger bg-danger text-light"
+                                       href="process?command=declineDescribeRequest&userRequestId=${bean.userRequestId}">
+                                        <fmt:message key="administrationDescribeRequests_jspf.cancel"/>
+                                    </a>
+                                </td>
+                            </tr>
+                        </c:forEach>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </c:when>
+        <c:otherwise>
+            <div class="row justify-content-center">
+                <fmt:message key="search.no.results"/>
+            </div>
+        </c:otherwise>
+    </c:choose>
+</div>

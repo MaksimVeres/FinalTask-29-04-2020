@@ -1,0 +1,122 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">
+                            <fmt:message key="search.by.service.name"/>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="title"><fmt:message key="search.founded.amount"/>:
+                            <c:choose>
+                                <c:when test="${not empty sessionScope.requestedServices}">
+                                    ${sessionScope.requestedServices.size()}
+                                </c:when>
+                                <c:otherwise>
+                                    0
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+                        <fmt:message key="search.placeholder.service.name" var="serviceName"/>
+                        <fmt:message key="search.placeholder.find" var="find"/>
+                        <form method="post" action="process?command=getServices">
+                            <label>
+                                <input type="text" class="form-control" name="searchName" placeholder="${serviceName}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <input type="submit" name="Find" class="btn btn-lg btn-block btn-outline-primary"
+                                       value="${find}">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+               href="process?command=getServices&searchAll=true">
+                <fmt:message key="search.show.all"/>
+            </a>
+        </div>
+    </div>
+
+    <br/>
+
+    <c:choose>
+        <c:when test="${not empty sessionScope.requestedServices}">
+            <div class="row justify-content-center">
+                <br/>
+                <div class="col-auto">
+                    <h2 class="text-center">
+
+                    </h2>
+                    <br/>
+
+                    <table class="table">
+
+                        <thead>
+                        <tr>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=id">
+                                <fmt:message key="table.id"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=name">
+                                <fmt:message key="table.name"/>
+                            </a></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        <c:forEach var="item" items="${sessionScope.requestedServices}">
+                            <c:set var="id" value="${item.id}"/>
+                            <c:set var="name" value="${item.name}"/>
+                            <tr>
+                                <td>${id}</td>
+                                <td>${name}</td>
+                                <td>
+                                    <fmt:message key="changing.change" var="change"/>
+                                    <fmt:message key="administrationServiceList_jspf.change.new.name" var="newName"/>
+                                    <form id="changeForm${id}" method="post"
+                                          action="process?command=changeService&id=${id}">
+                                        <label>
+                                            <input type="text" class="form-control" name="name"
+                                                   placeholder="${newName}">
+                                        </label>
+                                        <br/>
+                                        <label>
+                                            <input form="changeForm${id}" type="submit"
+                                                   class="btn bg-info btn-outline-info text-light"
+                                                   value="${change}"/>
+                                        </label>
+                                        <label>
+                                            <a class="btn bg-danger btn-outline-danger text-light"
+                                               href="process?command=deleteService&id=${id}">
+                                                <fmt:message key="deleting.delete"/>
+                                            </a>
+                                        </label>
+                                    </form>
+                                </td>
+                            </tr>
+                        </c:forEach>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            </div>
+        </c:when>
+        <c:otherwise>
+            <div class="row justify-content-center">
+                <fmt:message key="search.no.results"/>
+            </div>
+        </c:otherwise>
+    </c:choose>
+</div>

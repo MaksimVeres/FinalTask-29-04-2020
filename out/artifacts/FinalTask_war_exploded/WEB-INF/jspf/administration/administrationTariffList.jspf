@@ -1,0 +1,124 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">
+                            <fmt:message key="search.by.tariff.name"/>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="title"><fmt:message key="search.founded.amount"/>:
+                            <c:choose>
+                                <c:when test="${not empty sessionScope.requestedTariffs}">
+                                    ${sessionScope.requestedTariffs.size()}
+                                </c:when>
+                                <c:otherwise>
+                                    0
+                                </c:otherwise>
+                            </c:choose>
+                        </div>
+                        <fmt:message key="tariff.name" var="name"/>
+                        <fmt:message key="search.placeholder.find" var="find"/>
+                        <form method="post" action="process?command=getTariffs">
+                            <label>
+                                <input type="text" class="form-control" name="searchName" placeholder="${name}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <input type="submit" name="Find" class="btn btn-lg btn-block btn-outline-primary"
+                                       value="${find}">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+               href="process?command=getTariffs&searchAll=true">
+                <fmt:message key="search.show.all"/>
+            </a>
+        </div>
+    </div>
+
+    <br/>
+
+    <c:choose>
+        <c:when test="${not empty sessionScope.requestedTariffs}">
+            <div class="row justify-content-center">
+                <br/>
+                <div class="col-auto">
+                    <h2 class="text-center">
+                        <fmt:message key="administrationTariffList_jspf.founded.tariffs"/>
+                    </h2>
+                    <br/>
+
+                    <table class="table">
+
+                        <thead>
+                        <tr>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=id">
+                                <fmt:message key="table.id"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=name">
+                                <fmt:message key="table.name"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=connectionPayment">
+                                <fmt:message key="tariff.connectionPayment"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=monthPayment">
+                                <fmt:message key="tariff.monthPayment"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=feature">
+                                <fmt:message key="tariff.feature"/>
+                            </a></th>
+                            <th><a href="${sessionScope.replyRequest}&sortColumn=serviceId">
+                                <fmt:message key="tariff.serviceId"/>
+                            </a></th>
+                            <th></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        <c:forEach var="item" items="${sessionScope.requestedTariffs}">
+                            <c:set var="id" value="${item.id}"/>
+                            <tr>
+                                <td>${id}</td>
+                                <td>${item.name}</td>
+                                <td>${item.connectionPayment}</td>
+                                <td>${item.monthPayment}</td>
+                                <td>${item.feature}</td>
+                                <td>${item.serviceId}</td>
+                                <td>
+                                    <a class="btn bg-info btn-outline-info text-light"
+                                       href="process?command=toTariffChangeForm&forwardMethod=forward&id=${id}">
+                                        <fmt:message key="changing.change"/>
+                                    </a>
+                                    <a class="btn bg-danger btn-outline-danger text-light"
+                                       href="process?command=deleteTariff&id=${id}">
+                                        <fmt:message key="deleting.delete"/>
+                                    </a>
+                                </td>
+                            </tr>
+                        </c:forEach>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            </div>
+        </c:when>
+        <c:otherwise>
+            <div class="row justify-content-center">
+                <fmt:message key="search.no.results"/>
+            </div>
+        </c:otherwise>
+    </c:choose>
+</div>

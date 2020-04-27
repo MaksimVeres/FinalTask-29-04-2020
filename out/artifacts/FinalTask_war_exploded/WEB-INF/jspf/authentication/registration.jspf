@@ -1,0 +1,39 @@
+<%@ include file="../directive/taglib.jspf"%>
+
+<div id="form-container" class="container moveDown">
+    <div id="form-row" class="row bg-white text-center border border-primary rounded">
+        <div class="col text-center">
+            <span id="form-main-text" class="form-text">
+                <fmt:message key="registration_jspf.registration"/>
+            </span>
+            <hr/>
+            <form method="post" action="process?command=submitRegister" onsubmit="validateForm(this); return false;">
+                <label id="login-error-message">
+                    <span class="form-text text-danger">
+                        <fmt:message key="validation.enter.correct.login"/>
+                    </span>
+                </label>
+                <label>
+                    <fmt:message key="authentication_jspf.placeholder.login" var="login"/>
+                    <input id="login-input" type="text" class="form-control bg-light" name="login" placeholder="${login}"/>
+                </label>
+                <br/>
+                <label id="password-error-message">
+                    <span class="form-text text-danger">
+                        <fmt:message key="validation.enter.correct.password"/>
+                    </span>
+                </label>
+                <label>
+                    <fmt:message key="authentication_jspf.placeholder.password" var="password"/>
+                    <input id="password-input" type="password" class="form-control bg-light" name="password"
+                           placeholder="${password}"/>
+                </label>
+                <br/>
+                <label>
+                    <fmt:message key="registration_jspf.register" var="register"/>
+                    <input type="submit" class="btn btn-primary" value="${register}"/>
+                </label>
+            </form>
+        </div>
+    </div>
+</div>

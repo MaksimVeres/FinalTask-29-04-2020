@@ -1,0 +1,37 @@
+<%@ include file="../directive/taglib.jspf" %>
+
+<div id="form-container" class="container moveDown">
+    <div id="form-row" class="row bg-white text-center border border-primary rounded">
+        <div class="col text-center">
+            <span id="form-main-text" class="form-text">
+                <fmt:message
+                        key="describeForm_jspf.describe.tariff"/> "${sessionScope.userRequestTariff.name}" <fmt:message
+                    key="orderForm_jspf.for.service"/>
+                "${sessionScope.userRequestService.name}"
+            </span>
+            <hr/>
+            <form method="post" action="process?command=describeService" onsubmit="validateForm(this); return false;">
+                <br/>
+                <label>
+                    <fmt:message key="describeForm_jspf.phone_number" var="phoneNumber"/>
+                    <fmt:message key="request.message.phone"/>
+                    <br/>
+                    <input id="phone-input" type="tel" class="form-control bg-light" name="phone"
+                           placeholder="${phoneNumber}" pattern="^\+[0-9]{12}" required/>
+                </label>
+                <br/>
+                <label>
+                    <fmt:message key="describeForm_jspf.describe.reason"/>
+                    <fmt:message key="table.comment" var="comment"/>
+                    <input id="comment-input" type="text" class="form-control bg-light" name="comment"
+                           placeholder="${comment}">
+                </label>
+                <br/>
+                <label>
+                    <fmt:message key="describeForm_jspf.describe" var="describe"/>
+                    <input type="submit" class="btn btn-primary" value="${describe}"/>
+                </label>
+            </form>
+        </div>
+    </div>
+</div>

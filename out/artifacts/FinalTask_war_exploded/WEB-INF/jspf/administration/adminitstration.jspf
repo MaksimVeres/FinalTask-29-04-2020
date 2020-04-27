@@ -1,0 +1,112 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">
+        <fmt:message key="administration_jspf.administratorPanel"/>
+    </h1>
+    <p class="lead"><fmt:message key="administration_jspf.administrator"/> : ${sessionScope.user.login} </p>
+</div>
+
+<div class="container">
+
+    <div class="card-deck mb-3 text-center">
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationSubscribeRequests_jspf.subscribeRequests"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelSubscribeRequests">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationDescribeRequests_jspf.describeRequests"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelDescribeRequests">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationPanelServiceList_jsp.service.list"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelServiceList">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationServiceCreate_jspf.createService"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelServiceCreate">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationPanelTariffList_jsp.tariffList"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelTariffList">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationTariffCreateForm_jspf.tariffCreateForm"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelTariffCreateForm">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                    <fmt:message key="administrationPanelUserList_jspf.userList"/>
+                </h4>
+            </div>
+            <div class="card-body">
+                <a type="button" class="btn btn-lg btn-block btn-outline-primary"
+                   href="forward?page=administrationPanelUserList">
+                    <fmt:message key="opening.open"/>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>

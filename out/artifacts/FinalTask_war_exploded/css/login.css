@@ -1,0 +1,64 @@
+#form-container {
+    max-width: 400px;
+}
+
+#form-row {
+    margin-top: 50%;
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-main-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+#login-error-message {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: none;
+}
+
+#password-error-message {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: none;
+}
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.moveDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}

@@ -1,0 +1,70 @@
+<%@ include file="../directive/taglib.jspf" %>
+<div class="container">
+    <div class="row text-center justify-content-center">
+        <div class="col-sm-4">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">
+                            <fmt:message key="administrationTariffChangeForm_jspf.tariffChangeForm"/>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="title"><fmt:message key="administrationTariffChangeForm_jspf.tariff"/>
+                            #${sessionScope.changingTariff.id}
+                        </div>
+                        <form method="post" action="process?command=changeTariff&id=${sessionScope.changingTariff.id}">
+                            <label>
+                                <fmt:message key="administrationTariffChangeForm_jspf.placeholder.new.name"
+                                             var="newName"/>
+                                <fmt:message key="tariff.name"/> : <input type="text" class="form-control" name="name"
+                                                                          placeholder="${newName}"
+                                                                          value="${sessionScope.changingTariff.name}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <fmt:message key="administrationTariffChangeForm_jspf.placeholder.connectionPayment"
+                                             var="newConnectionPayment"/>
+                                <fmt:message key="tariff.connectionPayment"/> : <input type="number"
+                                                                                       name="connectionPayment"
+                                                                                       placeholder="${newConnectionPayment}"
+                                                                                       value="${sessionScope.changingTariff.connectionPayment}">
+                            </label>
+                            <br/>
+                            <label>
+                                <fmt:message key="administrationTariffChangeForm_jspf.placeholder.monthPayment"
+                                             var="newMonthPayment"/>
+                                <fmt:message key="tariff.monthPayment"/> : <input type="number" name="monthPayment"
+                                                                                  placeholder="${newMonthPayment}"
+                                                                                  value="${sessionScope.changingTariff.monthPayment}">
+                            </label>
+                            <br/>
+                            <label>
+                                <fmt:message key="administrationTariffChangeForm_jspf.placeholder.feature"
+                                             var="newFeature"/>
+                                <fmt:message key="tariff.feature"/> : <input type="text" class="form-control"
+                                                                             name="feature" placeholder="${newFeature}"
+                                                                             value="${sessionScope.changingTariff.feature}"/>
+                            </label>
+                            <br/>
+                            <label>
+                                <fmt:message key="administrationTariffChangeForm_jspf.placeholder.serviceId"
+                                             var="newServiceId"/>
+                                <fmt:message key="tariff.serviceId"/> : <input type="number" name="serviceId"
+                                                                               placeholder="${newServiceId}"
+                                                                               value="${sessionScope.changingTariff.serviceId}">
+                            </label>
+                            <br/>
+                            <label>
+                                <fmt:message key="changing.change" var="change"/>
+                                <input type="submit" name="submit" class="btn btn-lg btn-block btn-outline-primary"
+                                       value="${change}">
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FinalTask:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18025bfc-759a-4c56-956c-0f02725216d5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/service/ServiceManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="facelets" />
+        <option value="jsf" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Jsp File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>command starts</find>
+      <find>command finished</find>
+      <find>::::</find>
+      <find>exception</find>
+      <find>rus</find>
+      <find>getcomm</find>
+      <find>delete</find>
+      <find>search.by</find>
+      <find>founded</find>
+      <find>tar</find>
+      <find>tari</find>
+      <find>show</find>
+      <find>{0</find>
+      <find>cannot</find>
+      <find>:::</find>
+      <find>::</find>
+      <find>was de</find>
+      <find>set</find>
+      <find>status</find>
+      <find>tariff</find>
+      <find>\u041E\u0442\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F</find>
+      <find>order</find>
+      <find>dbManager</find>
+      <find>getSession</find>
+      <find>dbmanager.getco</find>
+      <find>roleId</find>
+      <find>reply</find>
+      <find>dbU</find>
+      <find>tariffsto</find>
+      <find>:</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\Учеба\EPAM\FinalTask\src\ua\nure\veres\summaryTask\web</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/create/CreateServiceCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/create/CreateTariffCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/decline/request/DeclineDescribeRequestCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/decline/request/DeclineSubscribeRequestCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/authentication/LoginCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/authentication/LogoutCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/delete/DeleteTariffCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/delete/DeleteTariffCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/delete/DeleteUserCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/delete/DeleteUserCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/exception/command/access/CommandAccessException.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/exception/command/value/ParameterException.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/exception/command/describe/DescribeServiceException.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/forward/tariff/ToTariffChangeFormCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/forward/tariff/ToTariffChangeFormCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/request/GetUserDescribeRequestsCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/request/GetUserDescribeRequestsCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/request/GetRequestsCommand.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/request/GetUserSubscribeRequestsCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/service/GetServicesCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/tariff/GetTariffsCommand.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/service/GetServicesCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/tariff/GetTariffsCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/user/GetUsersCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/user/GetUsersCommandTest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/common/describe/describe.jsp" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/filter/MoveToFilter.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/locale/LanguageSwitchCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/open/OpenTariffsCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/request/GetUserSubscribeRequestsCommandTest.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/open/OpenTariffsCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/order/OrderServiceCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/order/OrderServiceCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/register/SubmitRegisterCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/register/SubmitRegisterCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitRequestCommand.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitDescribeRequestCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/request/SubmitDescribeRequestCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitSubscribeRequestCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/request/SubmitSubscribeRequestCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/resources_ru.properties" />
+        <option value="$PROJECT_DIR$/src/resources.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jspf/cabinet/userCabinetReplenishAccount.jspf" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/user/ReplenishUserAccountCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/user/ReplenishUserAccountCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/CommandContainer.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/user/UpdateUserServicesCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/user/UpdateUserServicesCommand.java" />
+        <option value="$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/describe/DescribeServiceCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/describe/DescribeServiceCommand.java" />
+        <option value="$PROJECT_DIR$/src/ua/nure/veres/summaryTask/ee/security/SecurityManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="163" />
+    <option name="y" value="79" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="summaryTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jspf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalTask" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path" value="D:\Учеба\EPAM\FinalTask\web\WEB-INF\lib" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.14838201" />
+    <property name="project.structure.side.proportion" value="0.3349001" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.nure.veres.summaryTask.web.command.user" />
+      <recent name="ua.nure.veres.summaryTask.web.command.submit.request" />
+      <recent name="ua.nure.veres.summaryTask.web.command.submit.register" />
+      <recent name="ua.nure.veres.summaryTask.web.command.order" />
+      <recent name="ua.nure.veres.summaryTask.web.command.open" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jsp\common" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web" />
+      <recent name="D:\Учеба\EPAM\FinalTask\src" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jsp\common\tariff" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jsp\common\authentication" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.nure.veres.summaryTask.test.dao.userService" />
+      <recent name="ua.nure.veres.summaryTask.test.dao.userOrder" />
+      <recent name="ua.nure.veres.summaryTask.test.dao.userDescribe" />
+      <recent name="ua.nure.veres.summaryTask.test.dao.user" />
+      <recent name="ua.nure.veres.summaryTask.test.dao.tariff" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\lib" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jspf\administration" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jsp\admin" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jsp\common\cabinet" />
+      <recent name="D:\Учеба\EPAM\FinalTask\web\WEB-INF\jspf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Server">
+    <configuration name="All in FinalTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTask" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DescribeServiceCommandTest.executeWithBadParameter5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.veres.summaryTask.web.command.describe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.nure.veres.summaryTask.web.command.describe" />
+      <option name="MAIN_CLASS_NAME" value="ua.nure.veres.summaryTask.web.command.describe.DescribeServiceCommandTest" />
+      <option name="METHOD_NAME" value="executeWithBadParameter5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUserServicesCommandTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.veres.summaryTask.web.command.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.nure.veres.summaryTask.web.command.user" />
+      <option name="MAIN_CLASS_NAME" value="ua.nure.veres.summaryTask.web.command.user.UpdateUserServicesCommandTest" />
+      <option name="METHOD_NAME" value="execute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUserServicesCommandTest.executeWithWrongParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.veres.summaryTask.web.command.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.nure.veres.summaryTask.web.command.user" />
+      <option name="MAIN_CLASS_NAME" value="ua.nure.veres.summaryTask.web.command.user.UpdateUserServicesCommandTest" />
+      <option name="METHOD_NAME" value="executeWithWrongParameter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ua.nure.veres.summaryTask.web.command in FinalTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FinalTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.nure.veres.summaryTask.web.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.nure.veres.summaryTask.web.command" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="FinalTask:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_FinalTask" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49587" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="FinalTask:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Server" />
+      <item itemvalue="JUnit.UpdateUserServicesCommandTest.execute" />
+      <item itemvalue="JUnit.UpdateUserServicesCommandTest.executeWithWrongParameter" />
+      <item itemvalue="JUnit.All in FinalTask" />
+      <item itemvalue="JUnit.DescribeServiceCommandTest.executeWithBadParameter5" />
+      <item itemvalue="JUnit.ua.nure.veres.summaryTask.web.command in FinalTask" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ua.nure.veres.summaryTask.web.command in FinalTask" />
+        <item itemvalue="JUnit.All in FinalTask" />
+        <item itemvalue="JUnit.DescribeServiceCommandTest.executeWithBadParameter5" />
+        <item itemvalue="JUnit.UpdateUserServicesCommandTest.executeWithWrongParameter" />
+        <item itemvalue="JUnit.UpdateUserServicesCommandTest.execute" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18025bfc-759a-4c56-956c-0f02725216d5" name="Default Changelist" comment="" />
+      <created>1583664156536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583664156536</updated>
+      <workItem from="1583664338431" duration="21567000" />
+      <workItem from="1583936959747" duration="4250000" />
+      <workItem from="1584025924509" duration="25277000" />
+      <workItem from="1584100158403" duration="13641000" />
+      <workItem from="1584279243515" duration="14873000" />
+      <workItem from="1584367157075" duration="15422000" />
+      <workItem from="1584396521644" duration="5417000" />
+      <workItem from="1584447418844" duration="13642000" />
+      <workItem from="1584471781507" duration="110000" />
+      <workItem from="1584480999720" duration="2000" />
+      <workItem from="1584484242808" duration="15000" />
+      <workItem from="1584621234216" duration="29980000" />
+      <workItem from="1584661093993" duration="429000" />
+      <workItem from="1584719189076" duration="2986000" />
+      <workItem from="1584727586720" duration="632000" />
+      <workItem from="1584800728762" duration="26000" />
+      <workItem from="1584882114646" duration="5195000" />
+      <workItem from="1584954792149" duration="6396000" />
+      <workItem from="1584968447857" duration="28000" />
+      <workItem from="1584988778144" duration="101000" />
+      <workItem from="1585162101928" duration="2463000" />
+      <workItem from="1585218929731" duration="39401000" />
+      <workItem from="1585315364628" duration="12284000" />
+      <workItem from="1585553675887" duration="3000" />
+      <workItem from="1585565094485" duration="1183000" />
+      <workItem from="1585642653109" duration="18058000" />
+      <workItem from="1585678430574" duration="5309000" />
+      <workItem from="1585689371346" duration="592000" />
+      <workItem from="1585749255093" duration="2242000" />
+      <workItem from="1585762030882" duration="7220000" />
+      <workItem from="1585828452233" duration="3097000" />
+      <workItem from="1585831589429" duration="14094000" />
+      <workItem from="1585918188888" duration="6569000" />
+      <workItem from="1585937588013" duration="7903000" />
+      <workItem from="1586092094906" duration="308000" />
+      <workItem from="1586117116385" duration="301000" />
+      <workItem from="1586154732602" duration="241000" />
+      <workItem from="1586181053760" duration="13535000" />
+      <workItem from="1586259811924" duration="26124000" />
+      <workItem from="1586332888876" duration="14214000" />
+      <workItem from="1586373506187" duration="6808000" />
+      <workItem from="1586426139971" duration="10238000" />
+      <workItem from="1586455931593" duration="92000" />
+      <workItem from="1586518191827" duration="3871000" />
+      <workItem from="1586520855294" duration="6386000" />
+      <workItem from="1586616467030" duration="7722000" />
+      <workItem from="1586627472809" duration="869000" />
+      <workItem from="1586952608327" duration="1722000" />
+      <workItem from="1586978129715" duration="1432000" />
+      <workItem from="1587038875758" duration="8778000" />
+      <workItem from="1587050452024" duration="9842000" />
+      <workItem from="1587127792725" duration="27795000" />
+      <workItem from="1587385456298" duration="28970000" />
+      <workItem from="1587470753844" duration="12713000" />
+      <workItem from="1587504458326" duration="30000" />
+      <workItem from="1587582457179" duration="12642000" />
+      <workItem from="1587643647754" duration="26780000" />
+      <workItem from="1587735151781" duration="29433000" />
+      <workItem from="1587843587211" duration="3930000" />
+      <workItem from="1587847587153" duration="15500000" />
+      <workItem from="1587906065555" duration="16713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReplenishUserAccountCommandTest - 2020.04.26 at 21h 07m 52s.xml">
+      <configuration name="ReplenishUserAccountCommandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReplenishUserAccountCommandTest - 2020.04.26 at 21h 08m 11s.xml">
+      <configuration name="ReplenishUserAccountCommandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateUserServicesCommandTest_execute - 2020.04.26 at 21h 21m 56s.xml">
+      <configuration name="UpdateUserServicesCommandTest.execute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateUserServicesCommandTest_executeWithWrongParameter - 2020.04.26 at 21h 23m 08s.xml">
+      <configuration name="UpdateUserServicesCommandTest.executeWithWrongParameter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FinalTask - 2020.04.26 at 21h 24m 16s.xml">
+      <configuration name="All in FinalTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DescribeServiceCommandTest_executeWithBadParameter5 - 2020.04.26 at 21h 25m 39s.xml">
+      <configuration name="DescribeServiceCommandTest.executeWithBadParameter5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DescribeServiceCommandTest_executeWithBadParameter5 - 2020.04.26 at 21h 26m 00s.xml">
+      <configuration name="DescribeServiceCommandTest.executeWithBadParameter5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FinalTask - 2020.04.26 at 21h 26m 06s.xml">
+      <configuration name="All in FinalTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FinalTask - 2020.04.26 at 22h 52m 27s.xml">
+      <configuration name="All in FinalTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ua_nure_veres_summaryTask_web_command_in_FinalTask - 2020.04.26 at 22h 55m 04s.xml">
+      <configuration name="ua.nure.veres.summaryTask.web.command in FinalTask" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="567396000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22019334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="0" sideWeight="0.49946293" weight="0.2769744" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49624062" weight="0.32814237" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.53329754" weight="0.33704117" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5294772" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.46670246" side_tool="true" weight="0.23915462" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49462944" weight="0.32925472" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="SQL" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.12244898" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32975295" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32975295" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalTask$ServiceDaoFactoryTest.ic" NAME="ServiceDaoFactoryTest Coverage Results" MODIFIED="1587600806361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.test.dao.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$LogoutCommandTest.es" NAME="LogoutCommandTest Coverage Results" MODIFIED="1587847613518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="emma" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.web.command.authentication.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$LogoutCommandTest.exec" NAME="LogoutCommandTest Coverage Results" MODIFIED="1587846624350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.web.command.authentication.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$ServiceDaoTest.ic" NAME="ServiceDaoTest Coverage Results" MODIFIED="1587601015766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.test.dao.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$All_in_FinalTask.exec" NAME="All in FinalTask Coverage Results" MODIFIED="1587846100831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.web.command.authentication.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$LogoutCommandTest.ic" NAME="LogoutCommandTest Coverage Results" MODIFIED="1587846793756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ua.nure.veres.summaryTask.web.command.authentication.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$ChangeFullNameCommandTest.ic" NAME="ChangeFullNameCommandTest Coverage Results" MODIFIED="1587746666028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.nure.veres.summaryTask.web.command.change.user.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/FinalTask$All_in_FinalTask.ic" NAME="All in FinalTask Coverage Results" MODIFIED="1587846149368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ua.nure.veres.summaryTask.web.command.authentication.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/db/bean/UserRequestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/request/GetUserSubscribeRequestsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="145" column="19" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/ee/data/DataSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/listener/ContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="134" column="23" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/tariff/GetTariffsTxtCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/service/GetServicesCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/tariff/GetTariffsCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/service/GetServicesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/tariff/GetTariffsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/describe/describeSubmitted.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/change/fullNameChange.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/common/describe/describe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/filter/MoveToFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="96" column="49" selection-start-line="96" selection-start-column="49" selection-end-line="96" selection-end-column="49" />
+          <folding>
+            <element signature="method#getPageName#0;class#MoveToFilter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/filter/UserUpdateFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="69" selection-start-line="69" selection-end-line="71" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/locale/LanguageSwitchCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/locale/LanguageSwitchCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/filter/JspFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/user/GetUsersCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/user/GetUsersCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/get/GetCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/open/OpenTariffsCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1705">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1444#1474#0" expanded="true" />
+            <element signature="e#1649#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/open/OpenTariffsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/exception/UFMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/exception/command/describe/DescribeServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="166" column="29" lean-forward="true" selection-start-line="166" selection-start-column="29" selection-end-line="166" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/db/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/order/OrderServiceCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1623#1653#0" expanded="true" />
+            <element signature="e#1885#1915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/order/OrderServiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/register/SubmitRegisterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1361">
+          <caret line="84" column="34" lean-forward="true" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/register/SubmitRegisterCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1357#1387#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1493#1523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/get/request/GetUserSubscribeRequestsCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitDescribeRequestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitRequestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/request/SubmitSubscribeRequestCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1697#1727#0" expanded="true" />
+            <element signature="e#1972#2002#0" expanded="true" />
+            <element signature="e#2954#2984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/submit/request/SubmitSubscribeRequestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1432">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources_ru.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jspf/cabinet/userCabinetReplenishAccount.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/user/ReplenishUserAccountCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1329#1359#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1521#1551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/user/ReplenishUserAccountCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/user/UpdateUserServicesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1940">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/describe/DescribeServiceCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="200" column="60" selection-start-line="200" selection-start-column="60" selection-end-line="200" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/user/UpdateUserServicesCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1937#1967#0" expanded="true" />
+            <element signature="e#2271#2301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/describe/DescribeServiceCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/web/command/CommandContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="177" column="16" lean-forward="true" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/db/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/ee/PaymentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1227">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/ee/security/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ua/nure/veres/summaryTask/web/command/submit/request/SubmitDescribeRequestCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3817">
+          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1767#1797#0" expanded="true" />
+            <element signature="e#2049#2079#0" expanded="true" />
+            <element signature="e#3101#3131#0" expanded="true" />
+            <element signature="e#4041#4071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/nure/veres/summaryTask/service/ServiceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FinalTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3349001" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>hamcrest-2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3349001" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

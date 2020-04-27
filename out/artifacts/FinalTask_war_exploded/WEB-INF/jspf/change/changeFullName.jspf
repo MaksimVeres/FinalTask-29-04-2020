@@ -1,0 +1,33 @@
+<%@ include file="../directive/taglib.jspf" %>
+
+<div id="form-container" class="container moveDown">
+    <div id="form-row" class="row bg-white text-center border border-primary rounded">
+        <div class="col text-center">
+            <span id="form-main-text" class="form-text">
+                <fmt:message key="changeFullName_jspf.fullName.change"/>
+            </span>
+            <hr/>
+            <form method="post" action="process?command=changeFullName" onsubmit="validateForm(this); return false;">
+                <label id="data-error-message" style="display:none">
+                    <span class="form-text text-danger">
+                        <fmt:message key="validation.enter.correct.data"/>
+                    </span>
+                </label>
+                <label>
+                    <fmt:message key="changeFullName_jspf.firstName" var="firstName"/>
+                    <input id="firstName-input" type="text" class="form-control bg-light" name="firstName" placeholder="${firstName}"/>
+                </label>
+                <br/>
+                <label>
+                    <fmt:message key="changeFullName_jspf.lastName" var="lastName"/>
+                    <input id="lastName-input" type="text" class="form-control bg-light" name="lastName" placeholder="${lastName}"/>
+                </label>
+                <br/>
+                <label>
+                    <fmt:message key="changing.change" var="change"/>
+                    <input type="submit" class="btn btn-primary" value="${change}"/>
+                </label>
+            </form>
+        </div>
+    </div>
+</div>

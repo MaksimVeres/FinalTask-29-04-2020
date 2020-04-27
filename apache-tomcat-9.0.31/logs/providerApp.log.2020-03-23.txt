@@ -1,0 +1,2123 @@
+2020-03-23 11:23 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:23 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:23 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:23 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@79c1fbb5
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap.css
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap-grid.css
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /css/index.css
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap-reboot.css
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /favicon.ico
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /js/login.js
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 11:23 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 11:23 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:23 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 11:23 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:23 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 11:23 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:23 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:23 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:23 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:24 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:24 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:24 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:24 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@19922e1a
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 11:24 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 11:24 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:24 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 11:24 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:24 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 11:24 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:24 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:24 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:24 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:25 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:25 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:25 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:34 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:34 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:34 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:34 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@7421f0fb
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 11:34 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 11:34 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:34 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 11:34 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 11:34 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 11:34 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:34 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:34 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:34 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:38 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:38 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:38 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:38 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@10f0e6eb
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:38 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:38 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:38 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:39 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:39 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:51 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:51 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:51 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:51 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@1f142d6c
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:51 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:51 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:51 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:51 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:51 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:51 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:52 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:52 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:52 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:52 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@d754978
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:52 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:52 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:52 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:52 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:52 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:52 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:52 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:52 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:52 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:52 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:53 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:53 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:53 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:53 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@5d68e50d
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:53 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:53 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:53 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:53 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:55 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:55 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:55 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:55 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@525da4b7
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:55 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:55 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:55 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:55 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:55 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:55 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:55 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:55 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:55 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 11:55 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 11:56 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 11:56 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 11:56 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 11:56 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3a3f2043
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 11:56 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:56 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:56 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:56 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:56 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:56 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 11:56 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 11:56 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 11:56 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 11:56 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:00 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:00 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:00 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:00 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@7f350c5f
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:00 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 12:00 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:00 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 12:00 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:00 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 12:00 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:00 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:00 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:00 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:05 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:05 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:05 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:05 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@1ef03464
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:05 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:05 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:05 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:05 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:05 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:05 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:05 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:05 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:05 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:05 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:06 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:06 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:06 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:06 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@2db38e47
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:06 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:06 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:06 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:06 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:06 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:06 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:06 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:06 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:06 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:06 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:07 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:07 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:07 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:07 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@78e7ff9c
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:07 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:07 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:07 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:07 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:07 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:07 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:07 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:09 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:09 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:09 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:09 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@f72d2d6
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:09 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:09 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:09 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:09 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:09 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:09 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:09 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:09 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:09 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:09 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:10 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:10 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:11 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:11 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:11 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:11 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@525da4b7
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:11 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 12:11 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:11 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 12:11 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:11 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 12:11 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:11 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:11 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:11 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:14 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:14 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:14 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:14 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@1d75dca9
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap.css.map
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap-grid.css.map
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:14 [TRACE]            EncodingFilter:    39 - Request uri --> /css/bootstrap-reboot.css.map
+2020-03-23 12:14 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:14 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:15 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:15 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:15 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:15 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3a63652b
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:15 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:15 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:15 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:15 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:15 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:15 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:15 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:15 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:15 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:15 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:19 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:19 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:19 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:19 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@265b9964
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:19 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:19 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:19 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:19 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3cb4d4d0
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:19 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:19 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:19 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:20 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:20 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:20 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:20 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:20 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@459b6175
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:20 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:20 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:20 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:20 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:20 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:20 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:21 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:21 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:21 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:21 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@6357738d
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:21 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:21 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:21 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:21 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:21 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:21 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:21 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:21 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:21 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:21 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:37 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:37 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:37 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:37 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@d003b0c
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:37 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:37 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:37 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:37 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:37 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:37 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:37 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:37 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:39 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:39 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:39 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:39 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@d003b0c
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:39 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:39 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:39 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:39 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:39 [TRACE]            EncodingFilter:    39 - Request uri --> /&sort=monthPayment
+2020-03-23 12:39 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:39 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:41 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:41 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:41 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:41 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3a4008f
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:41 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:41 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:41 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:41 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:41 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:41 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:41 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:41 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:41 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@36bd3f79
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:41 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:41 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:42 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:42 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:42 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:42 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@49149372
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:42 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:42 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:42 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:43 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:43 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:43 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:44 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:44 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:44 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:45 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:45 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:45 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:45 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3f6dcebe
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:45 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:45 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:45 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:46 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:46 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:46 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:46 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@7305db15
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:46 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:46 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:46 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:47 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:47 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:47 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:48 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:48 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:48 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:48 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@388785f4
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:48 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:48 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:48 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:48 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:48 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:48 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:48 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:48 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@3aafe494
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:48 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:48 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:49 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 12:49 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:49 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 12:49 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:49 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 12:49 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:49 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:49 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:49 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:50 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:50 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:50 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:51 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:51 [DEBUG]             LogoutCommand:    30 - Command starts
+2020-03-23 12:51 [DEBUG]             LogoutCommand:    39 - Command finished
+2020-03-23 12:51 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:51 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:51 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:51 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:53 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 12:53 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:53 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 12:53 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:53 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 12:53 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]             LogoutCommand:    30 - Command starts
+2020-03-23 12:53 [DEBUG]             LogoutCommand:    39 - Command finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:53 [TRACE]              LoginCommand:    43 - Request parameter: login --> admin
+2020-03-23 12:53 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-03-23 12:53 [TRACE]              LoginCommand:    64 - userRole --> ADMIN
+2020-03-23 12:53 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0}
+2020-03-23 12:53 [ INFO]              LoginCommand:    73 - User User{login='admin', firstName='Максим', lastName='Верес', roleId=0, statusId=0, accountState=10000.0} logged as admin
+2020-03-23 12:53 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /js/fullNameChange.js
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:53 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:53 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:53 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:54 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:54 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:54 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:54 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@26c32236
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:54 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:54 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:54 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:54 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:54 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:54 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:54 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:54 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
+2020-03-23 12:59 [DEBUG]           ContextListener:    54 - Log4j has been initialized
+2020-03-23 12:59 [DEBUG]          CommandContainer:    45 - Command container was successfully initialized
+2020-03-23 12:59 [TRACE]          CommandContainer:    46 - Number of commands --> 15
+2020-03-23 12:59 [TRACE]                 DBManager:    36 - DataSource ==> org.apache.tomcat.dbcp.dbcp2.BasicDataSource@ca1afa4
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    52 - Filter initialization starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    54 - Encoding from web.xml --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    55 - Filter initialization finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]              LoginCommand:    36 - Command starts
+2020-03-23 12:59 [TRACE]              LoginCommand:    43 - Request parameter: login --> user
+2020-03-23 12:59 [TRACE]              LoginCommand:    51 - Found in DB: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:59 [TRACE]              LoginCommand:    64 - userRole --> CUSTOMER
+2020-03-23 12:59 [TRACE]              LoginCommand:    71 - Set the session attribute: user --> User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0}
+2020-03-23 12:59 [ INFO]              LoginCommand:    73 - User User{login='user', firstName='Максим', lastName='Верес', roleId=1, statusId=0, accountState=100.0} logged as customer
+2020-03-23 12:59 [DEBUG]              LoginCommand:    75 - Command finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /process
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    36 - Filter starts
+2020-03-23 12:59 [TRACE]            EncodingFilter:    39 - Request uri --> /js/passwordChange.js
+2020-03-23 12:59 [TRACE]            EncodingFilter:    43 - Request encoding = null, set encoding --> UTF-8
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    47 - Filter finished
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    28 - Filter destruction starts
+2020-03-23 12:59 [DEBUG]            EncodingFilter:    30 - Filter destruction finished
